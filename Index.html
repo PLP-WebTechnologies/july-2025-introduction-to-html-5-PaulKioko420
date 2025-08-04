@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Website</title>
+  <meta name="description" content="A simple HTML5 webpage demonstrating semantic structure, accessibility features, and SEO basics." />
+</head>
+<body>
+  <!-- Header with site title and navigation -->
+  <header role="banner">
+    <h1>My Portfolio Website</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#main-content">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main-content" role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I'm an aspiring full stack developer passionate about creating responsive,<br> user-friendly websites with HTML, CSS, and JavaScript.<br> I'm exploring modern frameworks and backend tools to better <br>connect both sides of web development. I strive to write clean, purposeful code that solves real problems.
+</p>
+    </section>
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Services</h2>
+      <article aria-labelledby="frontend-development">
+        <h3 id="web-design">Frontend Develpment</h3>
+        <p>I'm passionate about frontend development and bringing designs to life with HTML, CSS, and JavaScript.<br> I focus on building responsive, accessible, and visually engaging websites that work smoothly across devices.
+</p>
+      </article>
+      <article aria-labelledby="backend-development">
+        <h3 id="seo-optimization">Backend Development</h3>
+        <p>I'm curious about how web applications work behind the scenes. I'm learning backend development,<br> focusing on databases, APIs, and server-side logic to build scalable, secure systems.
+</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer with contact info -->
+  <footer role="contentinfo">
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:info@example.com">paulkioko@gmail.com</a><br />
+        Phone: <a href="tel:+1234567890">0758350563</a>
+      </address>
+    </section>
+    <p>&copy; 2025 My Portfolio Website</p>
+  </footer>
+</body>
+</html>
